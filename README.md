@@ -6,11 +6,12 @@ Endpoints:
 - https://rough-fog-3408.fly.dev/docs#/
 
 Ejemplo para utilizar el endpoint:
-- [a relative link] (prediccion-example-remote.http)
+
+[breast-cancer-prediction request sample](prediccion-example-remote.http)
 
 El proyecto consiste en lo siguiente:
 
-- Se utilizó el notebook desde kaggle para generar el modelo [https://www.kaggle.com/code/jagannathrk/predicting-breast-cancer-logistic-regression/notebook]
+- Se utilizó el notebook desde kaggle para generar el modelo https://www.kaggle.com/code/jagannathrk/predicting-breast-cancer-logistic-regression/notebook
 - Poetry es el gestor de dependencias del proyecto
 - Se utilizó fastapi + Fly.io para desplegar el modelo como API
 - Se incluyeron 2 workflows para CICD
