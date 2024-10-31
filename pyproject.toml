@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "loan-prediction-mlops"
+name = "breast-cancer-prediction"
 version = "0.1.0"
 description = "Proyecto grupal de MLOps"
 authors = ["Benito Giralt <bgiralt@alumnos.uai.cl>"]
