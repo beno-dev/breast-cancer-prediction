@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "loan-prediction-mlops"
+version = "0.1.0"
+description = "Proyecto grupal de MLOps"
+authors = ["Benito Giralt <bgiralt@alumnos.uai.cl>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12"
+pandas = "^2.2.3"
+scikit-learn = "^1.5.2"
+scipy = "^1.14.1"
+catboost = "^1.2.7"
+lightgbm = "^4.5.0"
+xgboost = "^2.1.2"
+imblearn = "^0.0"
+matplotlib = "^3.9.2"
+ipykernel = "^6.29.5"
+seaborn = "^0.13.2"
+statsmodels = "^0.14.4"
+fastapi = {extras = ["standard"], version = "^0.115.4"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

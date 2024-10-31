@@ -1,0 +1,17 @@
+POST http://127.0.0.1:8000/prediccion
+Content-Type: application/json
+
+{
+    "radius_mean":"0",
+    "texture_mean":"0",
+    "smoothness_mean":"0",
+    "compactness_mean":"0",
+    "symmetry_mean":"0",
+    "fractal_dimension_mean":"0",
+    "radius_se":"0",
+    "texture_se":"0",
+    "smoothness_se":"0",
+    "compactness_se":"0",
+    "symmetry_se":"0",
+    "fractal_dimension_se":"0"
+}
