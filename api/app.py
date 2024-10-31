@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import pickle
 import numpy as np
 import pandas as pd
-import uvicorn
+#import uvicorn
 from os.path import join, dirname
 
 path_to_model = join(dirname(__file__), "../model/breast_cancer.pkl")
@@ -71,6 +71,7 @@ async def predecir_fraude(transaccion: RadiologyAttributes):
         return resultado
     except Exception as e:
         raise HTTPException(status_code=400, detail=str(e))
-
+    
 if __name__ == "__main__":
-    uvicorn.run(app, port=5001, host="0.0.0.0")
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
