@@ -53,7 +53,7 @@ async def root():
 
 # Definir el endpoint para predicción
 @app.post("/prediccion/")
-async def predecir_fraude(transaccion: RadiologyAttributes):
+async def predecir_cancer(transaccion: RadiologyAttributes):
     try:
         # Convertir la entrada en un DataFrame
         datos_entrada = pd.DataFrame([transaccion.dict()], columns=columnas)
