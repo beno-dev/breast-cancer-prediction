@@ -19,7 +19,7 @@ matplotlib = "^3.9.2"
 ipykernel = "^6.29.5"
 seaborn = "^0.13.2"
 statsmodels = "^0.14.4"
-fastapi = {extras = ["standard"], version = "^0.115.4"}
+fastapi = {extras = ["standard"], version = "^0.111.0"}
 
 
 [build-system]
